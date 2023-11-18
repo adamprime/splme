@@ -1,4 +1,4 @@
-baseURL: "https://spl.me"
+baseURL: "https://spl.me/"
 title: Serenity, Productivity, Learning
 paginate: 5
 theme: PaperMod
@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: 
 
 minify:
   disableXML: true
@@ -16,13 +16,13 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Serenity, Productivity, Learning
+  description: "Sailing away to the nexus of mindfulness and AI-enabled technology"
+  keywords: [AI, productivity, mindfulness]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  images: ["/static/images/SPL Logo transparent.png"]
+  DateFormat: "2023-11-17"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
